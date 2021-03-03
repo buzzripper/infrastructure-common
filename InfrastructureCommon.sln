@@ -9,7 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Tests", "src\Infrast
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SlnRoot", "_SlnRoot", "{25EEBCE9-13E7-4E07-B8C2-C8E36E0DD621}"
 	ProjectSection(SolutionItems) = preProject
-		nuget.config = nuget.config
 		README.md = README.md
 	EndProjectSection
 EndProject
