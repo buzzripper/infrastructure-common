@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
@@ -18,6 +18,8 @@
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <PackageVersion>1.0.9</PackageVersion>
         <Version>1.0.9</Version>
+        <RepositoryUrl>https://github.com/buzzripper/infrastructure-common</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <IsPackable>true</IsPackable>
     </PropertyGroup>
