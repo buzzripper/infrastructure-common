@@ -1,7 +1,7 @@
-using System;
+
 using Xunit;
 
-namespace Common.Tests
+namespace ProData.Infrastructure.Common.Tests
 {
     public class UnitTest1
     {
