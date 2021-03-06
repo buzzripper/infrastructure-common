@@ -16,8 +16,8 @@
         <PackageTags>.Net Core;ProData Media</PackageTags>
         <PackageDescription>Common package for core components.</PackageDescription>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-        <PackageVersion>1.0.9</PackageVersion>
-        <Version>1.0.9</Version>
+        <PackageVersion>1.0.10</PackageVersion>
+        <Version>1.0.10</Version>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <IsPackable>true</IsPackable>
     </PropertyGroup>
