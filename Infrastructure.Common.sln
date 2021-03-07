@@ -5,12 +5,19 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "src\Common\Common.csproj", "{A8AA288D-7150-4A8F-AF55-77E288564467}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SlnRoot", "_SlnRoot", "{25EEBCE9-13E7-4E07-B8C2-C8E36E0DD621}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_slnroot", "_slnroot", "{25EEBCE9-13E7-4E07-B8C2-C8E36E0DD621}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Tests", "src\Common.Tests\Common.Tests.csproj", "{64E0789F-D246-44AA-BBCF-B938B9487E2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6E979062-4E46-4A49-A82A-23817AD9EC49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{BB6ADCDB-BD56-4ABB-96E5-B28D420F9D34}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\CI.yml = .github\workflows\CI.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +36,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E979062-4E46-4A49-A82A-23817AD9EC49} = {25EEBCE9-13E7-4E07-B8C2-C8E36E0DD621}
+		{BB6ADCDB-BD56-4ABB-96E5-B28D420F9D34} = {6E979062-4E46-4A49-A82A-23817AD9EC49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F07EE1BA-6910-4038-BB60-93A5A4C03EB5}
